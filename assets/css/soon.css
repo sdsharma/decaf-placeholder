@@ -57,8 +57,6 @@ HEADER
     padding: 20px 12px 0px 12px;
     text-align: center;
     width: 130px;
-    border-radius: 50%;
-    border: 4px solid rgba(255, 255, 255, .6);
 }
 .timer_box h1{
     font-size: 48px;
@@ -112,7 +110,7 @@ RESPONSIVE
     .btn-subscribe{border-radius: 20px;}
     #contact-informations{margin-top: 24px;}
     body {
-	    background-color: #000;
+	    background-image: url(http://tesc.ucsd.edu/decaf/assets/img/slider/3.jpg);
     }
 }
 @media only screen and (max-width: 740px) {
