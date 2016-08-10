@@ -57,13 +57,14 @@ HEADER
     padding: 20px 12px 0px 12px;
     text-align: center;
     width: 130px;
+    color: #fff;
 }
 .timer_box h1{
     font-size: 48px;
     margin-top: 5px;
     margin-bottom: 0px;
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: white;
+    color: #fff;
 }
 .timer_box p{ margin-top: 0px;}
 #layer{
@@ -77,7 +78,7 @@ HEADER
 #slider{
     width: 100%;
     position: fixed;
-    background-color: #000;
+    background-color: #bfbfbf;
     top: 0;
     left: 0;
     z-index: 0;
@@ -110,7 +111,7 @@ RESPONSIVE
     .btn-subscribe{border-radius: 20px;}
     #contact-informations{margin-top: 24px;}
     body {
-	    background-image: url(http://tesc.ucsd.edu/decaf/assets/img/slider/3.jpg);
+	    background-image: url(../img/slider/3.jpg);
     }
 }
 @media only screen and (max-width: 740px) {
