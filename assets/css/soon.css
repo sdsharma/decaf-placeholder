@@ -2,7 +2,7 @@
 MAIN STYLE
 *******************************************************************************************************************************/
 body {
-    background:  linear-gradient(
+    /*background:  linear-gradient(
       rgba(255, 255, 255, 0.25), 
       rgba(255, 255, 255, 0.25)
     ), url(../img/slider/1.jpg); 
@@ -10,7 +10,7 @@ body {
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
-      background-size: cover;
+      background-size: cover;*/
 
     font-family: "Lato";
     font-weight: 300;
@@ -84,7 +84,7 @@ HEADER
 }
 .timer_box p{ margin-top: 0px;}
 #layer{
-    background-color: rgba(0, 0, 0, .2);
+    background-color: rgba(0, 0, 0, .35);
     left: 0; top: 0;
     width: 100%;
     height: 100%;
@@ -99,8 +99,8 @@ HEADER
     left: 0;
     z-index: 0;
     padding:0;
-    -webkit-filter: blur(3px);
-    filter: blur(3px);
+    /*-webkit-filter: blur(2px);
+    filter: blur(2px);*/
 
 }
 
