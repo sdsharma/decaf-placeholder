@@ -24,7 +24,7 @@ COMMING SOON PAGE
             hours.html('<h1>0</h1><p>Hour</p>');
             minutes.html('<h1>0</h1><p>Minute</p>');
             seconds.html('<h1>0</h1><p>Second</p>');
-            message.html('<span class="message">JANUARY 19TH, 2017 IN PRICE CENTER</span><br/><br/><span class="message">CHECK BACK LATER FOR UPDATES</span>');
+            message.html('<a href="http://www.eventzilla.net/web/event/decaf-2017-disciplines-in-engineering-career-fair-2138872111"><h1>Company Registration Now Open</h1></a><span class="message">JANUARY 19TH, 2017 IN PRICE CENTER</span><br/><br/><span class="message">CHECK BACK LATER FOR UPDATES</span>');
         }
         else{
             var s = -now.getTimezoneOffset()*60 + (launch.getTime() - now.getTime())/1000;
@@ -43,7 +43,7 @@ COMMING SOON PAGE
             seconds.html('<h1>'+s+'</h1><p>Second'+(s>1?'s':''),'</p>');
             setTimeout(setDate, 1000);
 
-            message.html('<span class="message">JANUARY 19TH, 2017 IN PRICE CENTER</span><br/><br/><span class="message">CHECK BACK LATER FOR UPDATES</span>');
+            message.html('<a href="http://www.eventzilla.net/web/event/decaf-2017-disciplines-in-engineering-career-fair-2138872111"><h1>Company Registration Now Open</h1></a><span class="message">JANUARY 19TH, 2017 IN PRICE CENTER</span><br/><br/><span class="message">CHECK BACK LATER FOR UPDATES</span>');
         }
     }
 })(jQuery);
